@@ -1,0 +1,48 @@
+:root {
+  --bg-obsidian: #070709;
+  --bg-sheet: #0c0c10;
+  --bg-card: #13131a;
+  --bg-card-hover: #191923;
+  --border-subtle: rgba(255, 255, 255, 0.09);
+  --border-crimson: rgba(209, 27, 42, 0.45);
+  --crimson-bright: #e11d2e;
+  --crimson-deep: #9e111d;
+  --ivory-card: #f2eadc;
+  --gold-accent: #d4b483;
+  --text-primary: #f5f5f7;
+  --text-secondary: #b4b4c2;
+  --text-muted: #7b7b8b;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-obsidian);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg-obsidian);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
